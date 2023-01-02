@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { globalColor, matrix } from "../../styles/colors";
 import Links from "./Links";
 
 // Ici c'est le composant du Header. Il englobe un
@@ -29,8 +30,9 @@ const OrderedList = styled.ol`
 `;
 
 const Button = styled.button`
-  color: white;
-  background-color: green;
+  color: ${matrix};
+  background-color: ${globalColor};
+  border: 1px solid ${matrix};
   border-radius: 10px;
   width: 70px;
   height: 30px;
