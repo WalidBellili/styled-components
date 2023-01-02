@@ -5,7 +5,7 @@ import Links from "./Links";
 // SVG et une OL avec des ancres et un boutton
 
 const Head = styled.header`
-  background: red;
+
   display: flex;
   height: 70px;
 `;
@@ -15,14 +15,12 @@ const Nav = styled.nav`
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background: blue;
+
 `;
 const Article = styled.article`
   width: 100%;
 `;
 const OrderedList = styled.ol`
-
-  background: red;
   height: 100%;
   width: 100%;
   display: flex;
@@ -33,7 +31,6 @@ const OrderedList = styled.ol`
 const Button = styled.button`
   color: white;
   background-color: green;
-  border: 1px solid;
   border-radius: 10px;
   width: 70px;
   height: 30px;

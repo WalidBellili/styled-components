@@ -1,8 +1,10 @@
 import styled from "styled-components"
+import { colorParapgraph } from "../styles/colors"
+import { medium } from "../styles/fontSize"
 
 const Text = styled.p`
-font-size: 20px;
-color: black;
+font-size: ${medium };
+color: ${colorParapgraph };
 
 `
 

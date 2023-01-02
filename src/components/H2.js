@@ -1,8 +1,9 @@
 import styled from "styled-components"
+import { h2Size } from "../styles/fontSize"
 
 const Title = styled.h2`
-font-size: 30px;
-color: black;
+font-size: ${h2Size};
+color: white;
 
 `
 

@@ -1,8 +1,10 @@
 import styled from "styled-components"
+import { colorParapgraph } from "../styles/colors"
+import { minimal } from "../styles/fontSize"
 
 const List = styled.li`
-font-size: 20px;
-color: black;
+font-size: ${minimal};
+color: ${colorParapgraph };
 
 `
 

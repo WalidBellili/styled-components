@@ -1,20 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from "styled-components";
+import { minimal } from '../../styles/fontSize';
 
 const Ancre = styled.a`
 text-decoration: none;
-color:wheat
+font-size: ${minimal};
+color:white;
 `
 
 
 const Links = () => {
   return (
     <>
-  <Ancre href='#'>About</Ancre>
-  <Ancre href='#'>Experience</Ancre>
-  <Ancre href='#'>Work</Ancre>
-  <Ancre href='#'>Contact</Ancre>
+  <Ancre href='#'>01. About</Ancre>
+  <Ancre href='#'>02. Experience</Ancre>
+  <Ancre href='#'>03. Work</Ancre>
+  <Ancre href='#'>04. Contact</Ancre>
  
     
     </>

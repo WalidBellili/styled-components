@@ -1,8 +1,10 @@
-import React from 'react'
+
 import AboutMe from './components/AboutMe/AboutMe'
 // import styled from 'styled-components'
 import './components/App.css'
+import GlobalStyle from './components/Global'
 import Header from './components/Navigation/Header'
+import WorkedIndex from './components/Worked/WorkedIndex'
 
 
 
@@ -10,8 +12,10 @@ import Header from './components/Navigation/Header'
 const App = () => {
   return (
     <>
+    <GlobalStyle />
     <Header/>
     <AboutMe />
+    <WorkedIndex/>
     </>
   )
 }

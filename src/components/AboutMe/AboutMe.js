@@ -10,7 +10,6 @@ import Paragraphe from "../Paragraphe"
 
 // Le H2 vient de dehors et Parapgraphe
 const MainContainer = styled.main`
-border: 5px solid red;
 display: flex;
 flex-direction: column;
     justify-content: center;
@@ -20,7 +19,7 @@ flex-direction: column;
 
 const Container = styled.section`
 display: flex;
-border: 5px solid;
+
 
 `
 const Article = styled.article`
@@ -44,7 +43,7 @@ const AboutMe = () => {
   // console.log(props);
   return (
     <MainContainer >
-    <H2 title='effeef'/>
+    <H2 title='01. About Me'/>
     <Container>
     <Article>
       <SubArticle>

@@ -1,1 +1,6 @@
-const small = '13px'
+export const minimal = '13px'
+export const extraSmall = '14px'
+export const small = '16px'
+export const h2Size = '32px'
+export const medium = '20px'
+export const extra = '77px'

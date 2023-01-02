@@ -1,0 +1,1 @@
+export const colorParapgraph = '#364563'
