@@ -2,7 +2,16 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #0A192F;
 }
+/* a {
+    text-decoration: none;
+}
+a:link {
+    color:wheat
+} */
+/* SF Mono, Fira Code, Fira Mono, Roboto Mono, Mono Space
+size 13 */
 /* 
 header {
     background: red;
